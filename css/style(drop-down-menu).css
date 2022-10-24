@@ -1,4 +1,9 @@
+.header {
+    padding: 10em auto;
+}
+
 /* Navigation Menu - Background */
+
 .navigation {
     /* critical sizing and position styles */
     width: 100%;
@@ -31,7 +36,8 @@
     color: white;
     font-size: 1.2em;
     text-decoration: none;
-    transition: color 0.2s, background 0.5s;
+    transition: color 0.2s;
+    padding: 40% 0 40% auto;
 }
 
 .nav-item a:hover {
@@ -87,11 +93,11 @@ label[for="nav-trigger"] {
 }
 
 .nav-trigger:checked+label {
-    left: 215px;
+    left: 51%;
 }
 
 .nav-trigger:checked~.site-wrap {
-    left: 200px;
+    left: 50%;
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
